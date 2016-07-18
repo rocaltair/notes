@@ -15,7 +15,7 @@ start a socks5 proxy server
 
 # proxychains
 
-[proxychains](https://github.com/haad/proxychains)
+https://github.com/haad/proxychains
 
 you need to configure /etc/proxychains.conf, 
 add socks4 or socks5 or other protocol
