@@ -6,7 +6,16 @@ start a socks proxy on LOCAL_PROT
 ssh -qTfnN -D $LOCAL_PORT $username@$host
 ```
 
+# socksd
+
+https://github.com/lparam/socksd
+
+start a socks5 proxy server
+
+
 # proxychains
+
+[proxychains](https://github.com/haad/proxychains)
 
 you need to configure /etc/proxychains.conf, 
 add socks4 or socks5 or other protocol
