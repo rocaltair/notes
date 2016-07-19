@@ -12,8 +12,9 @@ https://github.com/lparam/socksd
 
 start a socks5 proxy server
 
-
 # proxychains
+
+command line tool.
 
 https://github.com/haad/proxychains
 
@@ -30,22 +31,34 @@ for examples:
 proxychains wget -c http://example.com/test.zip
 ```
 
+# proxifier
+
+https://www.proxifier.com/
+
+a GUI configurable proxy client tool. 
+
+like proxychains, but better.
+
+Proxifier allows network applications that do not
+support working through proxy servers
+to operate through a SOCKS or HTTPS proxy and chains.
+
 # kcptun
 
 https://github.com/xtaci/kcptun
 
-make a tunnel encrypted, turn TCP stream into UDP datagram
-very fast(x2 ~ x5), but take more network flows.
+make a network tunnel encrypted, turn TCP stream into UDP datagram.
+very fast(x2 ~ x5), but take more bandwidth.
 
 
-before
+BEFORE
 
 ```
 	  TCP(very slow)
 client ---------------------> server
 ```
 
-after
+AFTER
 
 ```
 	TCP                 UDP(very fast,encrypted)                 TCP
